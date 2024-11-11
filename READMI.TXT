@@ -1,0 +1,15 @@
+#INICIAMOS GIT EN UN DIRECTORIO
+     git init
+#CREAMOS UN FICHERO PERO QUE NO SEA UN README.TXT
+     touch .gitignore
+#AÑADIMOS Y COMENTAMOS
+     git add .
+     git commit -m "creando un repo local"
+#PRIMERO CREAMOS UNA NUEVA CARPETA EN GIT Y LE COPIAMOS EL SSH
+     git remote add origin git@github.com:a22pieroep/Ciberseguridad.git
+#VEREMOS CON EL SIGUIENTE COMANDO QUE MOSTRARA "ORIGIN"
+     git remote -v
+#NOS MOVEMOS A LA RAMA MAIN YA QUE NOS ENCONTRAREMOS EN LA RAMA MASTER
+     git branch -M main
+#SUBIMOS EL CONTENIDO
+     git push -u origin main
